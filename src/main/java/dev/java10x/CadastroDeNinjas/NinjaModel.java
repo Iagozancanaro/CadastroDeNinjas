@@ -5,15 +5,15 @@ import jakarta.persistence.*;
 // Entity transforma uma classe em entidade do banco de dados
 // JPA = Java Persistence API
 @Entity
-@Table(name = "tb_cadastro")
+@Table(name = "cadastro")
 public class NinjaModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Long id;
-    String nome;
-    String email;
-    int idade;
+    private Long id;
+    private String nome;
+    private String email;
+    private int idade;
 
     public NinjaModel() {
     }
