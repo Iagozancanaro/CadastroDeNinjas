@@ -1,0 +1,2 @@
+ALTER TABLE cadastro
+ADD COLUMN rank VARCHAR(255);
