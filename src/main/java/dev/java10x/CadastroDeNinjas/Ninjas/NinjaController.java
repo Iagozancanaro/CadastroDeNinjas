@@ -11,7 +11,7 @@ import java.util.Optional;
 public class NinjaController {
 
     // Injeçaõ de dependencia
-    private NinjaService ninjaService;
+    private final NinjaService ninjaService;
 
     public NinjaController(NinjaService ninjaService) {
         this.ninjaService = ninjaService;
